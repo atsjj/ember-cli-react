@@ -10,9 +10,11 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return Promise.all([
-      this.addBowerPackageToProject('react', '0.14.0'),
-      this.addBowerPackageToProject('ember-cli-react-shims', 'atsjj/ember-cli-react-shims#0.14.0')
-    ]);
+    var app = this;
+
+    return app.addBowerPackageToProject('react', '0.14.0')
+      .then(function() {
+        return app.addBowerPackageToProject('ember-cli-react-shims', 'atsjj/ember-cli-react-shims#0.14.0')
+      });
   }
 };
