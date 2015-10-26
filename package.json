@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-react",
-  "version": "1.13.8",
+  "version": "0.14.0",
   "description": "React App Builder for Ember CLI.",
   "directories": {
     "doc": "doc",
