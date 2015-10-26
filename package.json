@@ -1,0 +1,23 @@
+{
+  "name": "ember-cli-react",
+  "version": "1.13.8",
+  "description": "React App Builder for Ember CLI.",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "repository": "https://github.com/atsjj/react-app.git",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "author": "Steve Jabour <steve@jabour.me> (https://github.com/atsjj)",
+  "license": "MIT",
+  "dependencies": {
+    "ember-cli": "1.13.8",
+    "lodash": "^3.6.0",
+    "merge-defaults": "^0.2.1"
+  }
+}
